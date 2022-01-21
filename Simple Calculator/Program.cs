@@ -21,7 +21,7 @@ namespace Simple_Calculator
             }
             else if (oprt == "-")
             {
-                Console.WriteLine("Pick another number, which you want first number to be substracted from");
+                Console.WriteLine("Pick another number, which you want to be substractd from first number");
             }
             else if (oprt == "/")
             {
