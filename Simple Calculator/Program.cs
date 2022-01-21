@@ -6,7 +6,8 @@ namespace Simple_Calculator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("This is a calculator.");
+            Console.WriteLine("2+2=4-1=3");
         }
     }
 }
