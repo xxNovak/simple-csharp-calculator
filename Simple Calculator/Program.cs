@@ -6,8 +6,11 @@ namespace Simple_Calculator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("This is a calculator.");
-            Console.WriteLine("2+2=4-1=3");
+            Console.WriteLine("This is a calculator. WORKING Edition by HAHOOS");
+            var math = Console.ReadLine();
+            var mathArgs = math.Split(" ");
+            Console.WriteLine((int.Parse(mathArgs[0]) + int.Parse(mathArgs[1])));
+            Main(null);
         }
     }
 }
