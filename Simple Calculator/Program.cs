@@ -7,25 +7,25 @@ namespace Simple_Calculator
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to CALCULATOR");
-            Console.WriteLine("Choose a number and write it");
+            Console.WriteLine("Choose a number and write it here");
             var number1 = int.Parse(Console.ReadLine());
             Console.WriteLine("Choose a sign now. Either '+', '-', '*' or '/'");
             var oprt = Console.ReadLine();
             if (oprt == "*")
             {
-                Console.WriteLine("Pick another number, which you want to be multiplied");
+                Console.WriteLine("Pick another number, which you want to be multiplied by furst number");
             }
             else if (oprt == "+")
             {
-                Console.WriteLine("Pick another number, which you want to be added");
+                Console.WriteLine("Pick another number, which you want to be added to first number");
             }
             else if (oprt == "-")
             {
-                Console.WriteLine("Pick another number, which you want to be substracted");
+                Console.WriteLine("Pick another number, which you want first number to be substracted from");
             }
             else if (oprt == "/")
             {
-                Console.WriteLine("Pick another number, which you want to be divided");
+                Console.WriteLine("Pick another number, which you want first number to be divided by");
             }
             var number2 = int.Parse(Console.ReadLine());
             var result = 0;
